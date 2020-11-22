@@ -1,0 +1,19 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Macveco's Blog site",
+  "main": "index.js",
+  "dependencies": {
+    "vuepress": "^1.7.1"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-blog": "^1.9.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "author": "",
+  "license": "MIT"
+}
